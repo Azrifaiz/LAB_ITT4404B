@@ -18,7 +18,7 @@ int main()
                 close(p[1]);
                 read(p[0],&a,sizeof(int));
                 isprime = 1;
-                for(int i=100;i*i<=a;i++)
+                for(int i=2;i*i<=a;i++)
                         if(a%i==0)
                                 isprime = 0;
                 if(isprime == 1)
