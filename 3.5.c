@@ -8,7 +8,7 @@ int main()
         int a=1;
         int isprime=0;
 	printf("Enter the number : ");
-	isprime = getint();
+	isprime = getchar();
         int p[2];
         pipe(p);
 
