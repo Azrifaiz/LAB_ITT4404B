@@ -5,7 +5,7 @@
 
 int main()
 {
-        int a=1;
+        int a=100;
         int isprime=0;
         int p[2];
         pipe(p);
