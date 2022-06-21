@@ -5,9 +5,8 @@
 
 int main()
 {
-        int a=5;
+        int a=1;
         int isprime=0;
-	printf("Enter the number : ");
         int p[2];
         pipe(p);
 
@@ -18,7 +17,7 @@ int main()
         {
                 close(p[1]);
                 read(p[0],&a,sizeof(int));
-                isprime = getchar();
+                isprime = 1;
                 for(int i=2;i*i<=a;i++)
                         if(a%i==0)
                                 isprime = 0;
